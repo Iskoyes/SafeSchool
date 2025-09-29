@@ -113,3 +113,11 @@ else:
 
 np.savez_compressed("faces_db.npz", names=np.array(names, dtype=object), embs=np.stack(embs))
 print(f"Сохранено: {NAME}. Всего учеников в БД: {len(names)}")
+
+
+
+#python enroll.py
+#python generate_links.py
+#eduTrack_link_bot
+#python bot_bind.py
+#python recognize.py

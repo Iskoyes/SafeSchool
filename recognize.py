@@ -19,9 +19,11 @@ def load_db():
     embs = db["embs"]  
     norms = np.linalg.norm(embs, axis=1, keepdims=True)
     embs = embs / np.clip(norms, 1e-9, None)
+    
     return names, embs
 
 def load_parents():
+
     with open("parents.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
