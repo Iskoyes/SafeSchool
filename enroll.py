@@ -1,7 +1,5 @@
-
 import cv2, time, numpy as np
 from insightface.app import FaceAnalysis
-
 
 AUTO_MODE = True          
 CAPTURE_AFTER = 2.0       
@@ -116,8 +114,3 @@ print(f"Сохранено: {NAME}. Всего учеников в БД: {len(na
 
 
 
-#python enroll.py
-#python generate_links.py
-#eduTrack_link_bot
-#python bot_bind.py
-#python recognize.py
